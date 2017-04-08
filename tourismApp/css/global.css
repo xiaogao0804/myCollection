@@ -1,0 +1,210 @@
+html,body{
+    font-size:20px;
+    /*overflow: hidden;*/
+}
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#header{
+    width: 100%;
+    height: 6.4rem;
+    background: #33B5E6;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    z-index: 2;
+}
+#body{
+    overflow-y: scroll;
+    padding-top: 6.4rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    margin: 0 auto;
+}
+#footer{
+    width: 100%;
+    height: 5rem;
+    background: #33B5E6;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+a:hover{
+    text-decoration:none;
+}
+.lcon-left{
+    width: 1.15rem;
+    float: left;
+    position: absolute;
+    left: 1rem;
+    top: 3rem;
+}
+.title{
+    display: inline-block;
+    margin-top: 2.5rem;
+    color: white;
+    font-size: 2.3rem;
+}
+
+#content{
+    padding: 0 1rem;
+    width: 100%;
+}
+.content-item{
+    line-height: 4.2rem;
+    height: 4.35rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 0.1rem solid #B5BDC0;
+    position: relative;
+}
+.content-item1{
+    line-height: 4.2rem;
+    height: 14.19rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.note{
+    font-size: 1.55rem;
+    color: #414141;
+    font-weight: bold;
+    float: left;
+    width: 6.4rem;
+}
+.note1{
+    font-size: 1.55rem;
+    color: #414141;
+    font-weight: bold;
+}
+.text0, .text1, .text2, .text3{
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+    float: left;
+    border: none;
+    padding-left: 1.5rem;
+}
+.lcon-right{
+    width: 1.15rem;
+    float: right;
+    position: absolute;
+    right: 0.5rem;
+    top: 1.5rem;
+    cursor: pointer;
+}
+.anniu{
+    width: 10.6rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: #33B5E6;
+    border-radius: 0.4rem;
+    float: left;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+    display: inline-block;
+    border-radius: 0.4rem;
+    width: 3rem;
+    height: 2.6rem;
+    float: left;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    background-color: white;
+    position: relative;
+}
+.lcon-label{
+    color: #33B5E6;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+}
+.lcon1{
+    width: 1.5rem;
+    position: absolute;
+    left: 0.7rem;
+    top: 0.6rem;
+}
+.lcon2{
+    width: 1.5rem;
+    height: 0.25rem;
+    position: absolute;
+    left: 0.7rem;
+    top: 1.2rem;
+}
+.btn-content, .btn-content1 ,.btn-content2{
+    font-size: 1.5rem;
+    display: inline-block;
+    float: left;
+    width: 4rem;
+    height: 2.6rem;
+    text-align: center;
+    margin-top: -0.5rem;
+}
+.label-content1{
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #B3B3B3;
+    float: left;
+    margin-left: 0.5rem;
+}
+.textnode{
+    font-size: 1.5rem;
+    float: left;
+    width: 100%;
+    height: 10rem;
+    background-color: #D5D9DA;
+    line-height: 1.5rem;
+    padding: 1rem;
+}
+
+.link{
+    margin-top: 1rem;
+    position: relative;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: #FF8A00;
+    display: inline-block;
+}
+.link1{
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: #33DC3F;
+    display: inline-block;
+}
+.link img,.link1 img{
+    width: 1.75rem;
+    position: absolute;
+    left: 1.8rem;
+    top: 0.6rem;
+}
+.link span,.link1 span{
+    color: white;
+    width: 6.5rem;
+    position: absolute;
+    left: 3.8rem;
+    top: 0.5rem;
+    font-size: 1.5rem;
+}
+.active{
+    background:#E8F0F3;
+}
+.chengshi0,.chengshi1,.chengshi2,.chengshi3{
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: black;
+    line-height: 1.5rem;
+    float: left;
+    display: inline-block;
+}
+.modal-body{
+    height: 10rem;
+}

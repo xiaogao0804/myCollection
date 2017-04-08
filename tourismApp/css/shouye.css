@@ -1,0 +1,228 @@
+html,body{
+    font-size:20px;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#header{
+    width: 100%;
+    height: 6.4rem;
+    background: #33B5E6;
+    position: fixed;
+    top: 0;
+    z-index: 6;
+}
+#footer{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+#group{
+    width: 100%;
+    height: 3rem;
+    margin-top: 3rem;
+}
+.lcon-left{
+    width: 1.9rem;
+    float: left;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+    cursor: pointer;
+}
+.title{
+    display: inline-block;
+    color: white;
+    font-size: 1.75rem;
+    float: left;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.active1{
+    color: #33B5E6;
+}
+.text{
+    width: 12rem;
+    height: 2.4rem;
+    border-radius: 1rem;
+    border: 0.2rem #7ACFEF solid;
+    background-color: #39C4F9;
+    float: right;
+    margin-right:0.5rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+.lcon-right{
+    width: 1.9rem;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+    cursor: pointer;
+}
+.tab1{
+    z-index: 2;
+}
+#body{
+    overflow-y: scroll;
+    overflow-y: hidden;
+    padding-top: 6.4rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.ding{
+    float: left;
+    width: 9rem;
+    height: 3rem;
+    display: inline-block;
+    cursor: pointer;
+}
+.lcon{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    color: white;
+}
+.item img ,#head, {
+    width: 100%;
+}
+.tab{
+    height: 5.5rem;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.mainmenu{
+    width: 20%;
+    height: 5.5rem;
+    float: left;
+}
+
+.active3 .tubiao1{
+    display: none;
+}
+.active3 .tubiao2{
+    display: block;
+}
+.manage{
+    width: 100%;
+    padding: 1rem 0;
+    height: 9rem;
+    background-color: #E8F0F3;
+}
+.manage-menu{
+    width: 33.3%;
+    height: 7rem;
+    float: left;
+    background-color: #33B5E6;
+}
+.manage-menu1{
+    width: 33.3%;
+    height: 7rem;
+    float: left;
+    background-color: #33B5E6;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.text1{
+    color: white;
+    font-size: 1rem;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    float: right;
+}
+.foot1{
+    width: 100%;
+    height: 18.5rem;
+    
+}
+.foottitle{
+    width: 100%;
+    padding: 0 1rem;
+    height: 3rem;
+}
+.textt4{
+    display: inline-block;
+    font-size: 1rem;
+    float: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.textt5{
+    color: #33B5E6;
+    float: right;
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.contt{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.tu{
+    width: 100%;
+}
+.tuu{
+    position: absolute;
+    left: 1rem;
+    top: -0.6rem;
+    width: 5.5rem;
+}
+.foot-content , .cont{
+    width: 100%;
+    height: 100%;
+}
+.item1{
+    background: #33B5E6;
+    float: left;
+    width: 25%;
+    height: 5rem;
+}
+.tubiao1{
+    margin: 0.7rem auto;
+     width: 2.25rem;
+ }
+.tubiao2 {
+    margin: 0.7rem auto;
+    width: 2.25rem;
+    display: none;
+}
+.item span{
+    color: white;
+    font-size: 1.3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.tiao{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.active{
+    background:#E8F0F3;
+}
+.active img{
+    display: block;
+}
+a:hover{
+    text-decoration:none;
+}
+.chengshi{
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: black;
+    line-height: 1.5rem;
+    float: left;
+    display: inline-block;
+}
+.modal-body{
+    height: 10rem;
+}
